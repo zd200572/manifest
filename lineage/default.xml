@@ -2,14 +2,17 @@
 <manifest>
 
   <remote  name="github"
-           fetch="https://github.com"
+           fetch="https://github.com/" />
+
+  <remote  name="lineage"
+           fetch="https://mirrors.tuna.tsinghua.edu.cn/git/lineageOS/"
            review="review.lineageos.org" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com"
+           fetch="https://aosp.tuna.tsinghua.edu.cn"
            review="android-review.googlesource.com"
            revision="refs/tags/android-8.1.0_r52" />
 
